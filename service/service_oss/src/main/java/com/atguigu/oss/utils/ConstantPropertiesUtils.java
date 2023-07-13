@@ -12,7 +12,7 @@ public class ConstantPropertiesUtils implements InitializingBean {
     @Value("${aliyun.oss.file.endpoint}")
     private String endpoint;
 
-    @Value("LTAI5tPhNVhHy2NXTmnq6qqW")
+    @Value("${aliyun.oss.file.keyid}")
     private String keyId;
 
     @Value("${aliyun.oss.file.keysecret}")
